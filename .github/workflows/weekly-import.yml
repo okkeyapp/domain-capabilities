@@ -1,0 +1,38 @@
+name: Weekly catalog import
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Import upstream catalogs
+        run: npm run import
+
+      - name: Commit catalog updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/catalog.json data/manifest.json; then
+            echo "No catalog changes."
+            exit 0
+          fi
+          VERSION=$(node -p "JSON.parse(require('fs').readFileSync('data/manifest.json','utf8')).version")
+          git add data/catalog.json data/manifest.json
+          git commit -m "chore: catalog update ${VERSION}"
+          git push

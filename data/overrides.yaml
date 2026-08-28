@@ -1,0 +1,7 @@
+# Manual domain capability overrides (merged on top of imported data).
+# Example:
+# - domain: example.com
+#   supports2FA: true
+#   supportsPasskeys: false
+
+[]

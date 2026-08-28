@@ -1,0 +1,17 @@
+{
+  "name": "@okkey/domain-capabilities",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Open domain capability catalog (2FA / passkeys) for Okkey Monitoring",
+  "type": "module",
+  "scripts": {
+    "import": "node scripts/import.mjs",
+    "test": "node --test scripts/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "yaml": "^2.8.1"
+  }
+}
