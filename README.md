@@ -27,10 +27,10 @@ No separate server is required — Actions runners perform the import.
 
 ```text
 # Version check (small)
-https://raw.githubusercontent.com/okkey/domain-capabilities/main/data/manifest.json
+https://raw.githubusercontent.com/okkeyapp/domain-capabilities/main/data/manifest.json
 
 # Full catalog
-https://raw.githubusercontent.com/okkey/domain-capabilities/main/data/catalog.json
+https://raw.githubusercontent.com/okkeyapp/domain-capabilities/main/data/catalog.json
 ```
 
 ## Local development
