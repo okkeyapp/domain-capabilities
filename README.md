@@ -23,15 +23,25 @@ Manual run: **Actions → Weekly catalog import → Run workflow**.
 
 No separate server is required — Actions runners perform the import.
 
-## Consume (raw GitHub)
+## Consume (CDN mirrors)
+
+Clients race these URLs and keep the first successful response:
 
 ```text
-# Version check (small)
+# GitHub raw
 https://raw.githubusercontent.com/okkeyapp/domain-capabilities/main/data/manifest.json
-
-# Full catalog
 https://raw.githubusercontent.com/okkeyapp/domain-capabilities/main/data/catalog.json
+
+# jsDelivr (GitHub proxy)
+https://cdn.jsdelivr.net/gh/okkeyapp/domain-capabilities@main/data/manifest.json
+https://cdn.jsdelivr.net/gh/okkeyapp/domain-capabilities@main/data/catalog.json
+
+# statically.io (GitHub proxy)
+https://cdn.statically.io/gh/okkeyapp/domain-capabilities/main/data/manifest.json
+https://cdn.statically.io/gh/okkeyapp/domain-capabilities/main/data/catalog.json
 ```
+
+Okkey web app also ships a bundled baseline and caches the winner in `localStorage`.
 
 ## Local development
 
