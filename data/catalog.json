@@ -1,9 +1,16 @@
 {
-  "version": "2026.09.21",
-  "generatedAt": "2026-09-21T08:22:53.116Z",
-  "sha256": "920d54a1c0f607b3f18c6a28a59ad0c6ef69f4c949b2f84c3f0b1d6e15b1e8ab",
+  "version": "2026.09.28",
+  "generatedAt": "2026-09-28T09:08:50.522Z",
+  "sha256": "42366e6131f3b70b2ffe4da9dc9498df0ed5d15632dbf40e863f50c15da979b1",
   "entries": {
     "zoom.us": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "zondaglobal.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -25,13 +32,6 @@
         "2fa.directory"
       ]
     },
-    "zerodha.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "zerotier.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -40,14 +40,7 @@
         "passkeys.directory"
       ]
     },
-    "zondaglobal.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "zeplin.io": {
+    "zerodha.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -55,6 +48,13 @@
       ]
     },
     "zendesk.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "zeplin.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -83,19 +83,19 @@
         "passkeys.directory"
       ]
     },
+    "youhodler.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "co.uk": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "youhodler.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "ynab.com": {
@@ -112,11 +112,12 @@
         "2fa.directory"
       ]
     },
-    "yclas.com": {
+    "yahoo.com": {
       "supports2FA": true,
-      "supportsPasskeys": false,
+      "supportsPasskeys": true,
       "sources": [
-        "2fa.directory"
+        "2fa.directory",
+        "passkeys.directory"
       ]
     },
     "xplenty.com": {
@@ -126,12 +127,11 @@
         "2fa.directory"
       ]
     },
-    "yahoo.com": {
+    "yclas.com": {
       "supports2FA": true,
-      "supportsPasskeys": true,
+      "supportsPasskeys": false,
       "sources": [
-        "2fa.directory",
-        "passkeys.directory"
+        "2fa.directory"
       ]
     },
     "xink.io": {
@@ -221,13 +221,6 @@
         "2fa.directory"
       ]
     },
-    "workato.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "wordpress.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -243,12 +236,11 @@
         "2fa.directory"
       ]
     },
-    "woltlab.com": {
+    "workato.com": {
       "supports2FA": true,
-      "supportsPasskeys": true,
+      "supportsPasskeys": false,
       "sources": [
-        "2fa.directory",
-        "passkeys.directory"
+        "2fa.directory"
       ]
     },
     "woodforest.com": {
@@ -256,6 +248,14 @@
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
+      ]
+    },
+    "woltlab.com": {
+      "supports2FA": true,
+      "supportsPasskeys": true,
+      "sources": [
+        "2fa.directory",
+        "passkeys.directory"
       ]
     },
     "wolf.bet": {
@@ -266,13 +266,6 @@
       ]
     },
     "wix.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "withings.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -295,6 +288,13 @@
         "passkeys.directory"
       ]
     },
+    "withings.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "wirexapp.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -307,14 +307,6 @@
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
-      ]
-    },
-    "wikipedia.org": {
-      "supports2FA": true,
-      "supportsPasskeys": true,
-      "sources": [
-        "2fa.directory",
-        "passkeys.directory"
       ]
     },
     "wiggle.cn": {
@@ -409,6 +401,14 @@
         "2fa.directory"
       ]
     },
+    "wikipedia.org": {
+      "supports2FA": true,
+      "supportsPasskeys": true,
+      "sources": [
+        "2fa.directory",
+        "passkeys.directory"
+      ]
+    },
     "whois.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -423,14 +423,14 @@
         "2fa.directory"
       ]
     },
-    "whc.ca": {
+    "wheniwork.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "wheniwork.com": {
+    "whc.ca": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -479,13 +479,6 @@
         "2fa.directory"
       ]
     },
-    "wedos.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "wefunder.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -494,12 +487,11 @@
         "passkeys.directory"
       ]
     },
-    "weclapp.com": {
+    "wedos.com": {
       "supports2FA": true,
-      "supportsPasskeys": true,
+      "supportsPasskeys": false,
       "sources": [
-        "2fa.directory",
-        "passkeys.directory"
+        "2fa.directory"
       ]
     },
     "webroot.com": {
@@ -514,6 +506,14 @@
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
+      ]
+    },
+    "weclapp.com": {
+      "supports2FA": true,
+      "supportsPasskeys": true,
+      "sources": [
+        "2fa.directory",
+        "passkeys.directory"
       ]
     },
     "pt.lu": {
@@ -559,14 +559,14 @@
         "2fa.directory"
       ]
     },
-    "wazirx.com": {
+    "wealthfront.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "wealthfront.com": {
+    "wazirx.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -587,13 +587,6 @@
         "2fa.directory"
       ]
     },
-    "wargaming.net": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "warnerbrosgames.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -602,6 +595,13 @@
       ]
     },
     "wbgames.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "wargaming.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -645,21 +645,6 @@
         "passkeys.directory"
       ]
     },
-    "microsoft.com": {
-      "supports2FA": true,
-      "supportsPasskeys": true,
-      "sources": [
-        "2fa.directory",
-        "passkeys.directory"
-      ]
-    },
-    "virustotal.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "vivaldi.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -674,6 +659,21 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "microsoft.com": {
+      "supports2FA": true,
+      "supportsPasskeys": true,
+      "sources": [
+        "2fa.directory",
+        "passkeys.directory"
+      ]
+    },
+    "virustotal.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "vimeo.com": {
@@ -691,6 +691,13 @@
         "passkeys.directory"
       ]
     },
+    "vgen.co": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "viabtc.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -699,13 +706,6 @@
       ]
     },
     "versio.nl": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "vgen.co": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -725,6 +725,20 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "veem.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "veeam.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "vend.com": {
@@ -811,13 +825,6 @@
         "2fa.directory"
       ]
     },
-    "veem.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "vaultcord.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -827,13 +834,6 @@
       ]
     },
     "novanode.win": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "veeam.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -876,7 +876,14 @@
         "2fa.directory"
       ]
     },
-    "usmobile.com": {
+    "uspto.gov": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "usps.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -890,7 +897,7 @@
         "2fa.directory"
       ]
     },
-    "uspto.gov": {
+    "usmobile.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -954,14 +961,14 @@
         "2fa.directory"
       ]
     },
-    "upenn.edu": {
+    "updraftplus.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "updraftplus.com": {
+    "upenn.edu": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1038,6 +1045,13 @@
         "2fa.directory"
       ]
     },
+    "uni-marburg.de": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "unbounce.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -1045,14 +1059,14 @@
         "2fa.directory"
       ]
     },
-    "uk2.net": {
+    "com.ua": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "com.ua": {
+    "uk2.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1190,14 +1204,14 @@
         "passkeys.directory"
       ]
     },
-    "tunnelbear.com": {
+    "intuit.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "intuit.com": {
+    "tunnelbear.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1303,13 +1317,6 @@
         "2fa.directory"
       ]
     },
-    "transifex.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "transip.nl": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -1324,7 +1331,28 @@
         "2fa.directory"
       ]
     },
+    "trading212.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "transifex.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "net.pl": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "towerfcu.org": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1345,28 +1373,7 @@
         "2fa.directory"
       ]
     },
-    "trading212.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "towerfcu.org": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "toshl.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "torguard.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1379,6 +1386,13 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "torguard.net": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "toontownrewritten.com": {
@@ -1402,6 +1416,13 @@
         "2fa.directory"
       ]
     },
+    "todoist.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "office.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -1418,28 +1439,7 @@
         "passkeys.directory"
       ]
     },
-    "todoist.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "timetastic.us": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "tinyurl.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "time4vps.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1453,7 +1453,14 @@
         "2fa.directory"
       ]
     },
-    "tilaa.com": {
+    "time4vps.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "timetastic.us": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1466,6 +1473,20 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "tilaa.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "ticktick.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "ticketsource.eu": {
@@ -1482,13 +1503,6 @@
         "2fa.directory"
       ]
     },
-    "tibia.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "ti.to": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -1496,7 +1510,21 @@
         "2fa.directory"
       ]
     },
+    "tibia.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "thrivecart.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "threatx.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1511,13 +1539,6 @@
       ]
     },
     "threatconnect.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "threatx.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1623,6 +1644,13 @@
         "2fa.directory"
       ]
     },
+    "tebex.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "teamwork.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -1631,13 +1659,6 @@
       ]
     },
     "teamviewer.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "tebex.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1731,14 +1752,14 @@
         "2fa.directory"
       ]
     },
-    "sync.com": {
+    "swyftx.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "swyftx.com": {
+    "sync.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1766,6 +1787,13 @@
         "2fa.directory"
       ]
     },
+    "sumologic.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "summ.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -1774,20 +1802,6 @@
       ]
     },
     "cryptotaxcalculator.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "sumologic.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "substack.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1808,7 +1822,7 @@
         "2fa.directory"
       ]
     },
-    "studentaid.gov": {
+    "substack.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1822,7 +1836,7 @@
         "2fa.directory"
       ]
     },
-    "stubhub.com": {
+    "studentaid.gov": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1835,6 +1849,13 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "stubhub.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "strato.de": {
@@ -1879,14 +1900,14 @@
         "2fa.directory"
       ]
     },
-    "statuscake.com": {
+    "statuspage.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "statuspage.io": {
+    "statuscake.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -1906,13 +1927,6 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "uni-marburg.de": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "stackpath.com": {
@@ -1973,20 +1987,6 @@
         "2fa.directory"
       ]
     },
-    "spri.ng": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "teespring.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "sproutsocial.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -2008,6 +2008,20 @@
         "2fa.directory"
       ]
     },
+    "spri.ng": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "teespring.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "splashtop.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -2015,14 +2029,14 @@
         "2fa.directory"
       ]
     },
-    "spectrocoin.com": {
+    "sparkpost.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "sparkpost.com": {
+    "spectrocoin.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2065,14 +2079,14 @@
         "2fa.directory"
       ]
     },
-    "sonix.ai": {
+    "sonic.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "sonic.com": {
+    "sonix.ai": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2121,7 +2135,7 @@
         "2fa.directory"
       ]
     },
-    "socketlabs.com": {
+    "sofi.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2135,19 +2149,26 @@
         "2fa.directory"
       ]
     },
-    "sofi.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "snapchat.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "socketlabs.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "smspool.net": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "smugmug.com": {
@@ -2171,14 +2192,14 @@
         "2fa.directory"
       ]
     },
-    "slack.com": {
+    "smarkets.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "smarkets.com": {
+    "slack.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2192,14 +2213,14 @@
         "2fa.directory"
       ]
     },
-    "sketchup.com": {
+    "sketch.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "sketch.com": {
+    "sketchup.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2270,6 +2291,13 @@
         "2fa.directory"
       ]
     },
+    "shrimpy.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "shortcut.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -2278,13 +2306,6 @@
       ]
     },
     "clubhouse.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "shrimpy.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2356,6 +2377,13 @@
         "2fa.directory"
       ]
     },
+    "servus.ca": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "settle.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -2364,13 +2392,6 @@
       ]
     },
     "settle.co": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "servus.ca": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2398,6 +2419,14 @@
         "2fa.directory"
       ]
     },
+    "nitrado.net": {
+      "supports2FA": true,
+      "supportsPasskeys": true,
+      "sources": [
+        "2fa.directory",
+        "passkeys.directory"
+      ]
+    },
     "serif.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -2405,12 +2434,18 @@
         "2fa.directory"
       ]
     },
-    "nitrado.net": {
+    "serpapi.com": {
       "supports2FA": true,
-      "supportsPasskeys": true,
+      "supportsPasskeys": false,
       "sources": [
-        "2fa.directory",
-        "passkeys.directory"
+        "2fa.directory"
+      ]
+    },
+    "senko.digital": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "sentry.io": {
@@ -2421,7 +2456,7 @@
         "passkeys.directory"
       ]
     },
-    "senko.digital": {
+    "sendowl.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2435,21 +2470,7 @@
         "2fa.directory"
       ]
     },
-    "sendowl.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "sendcloud.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "sellix.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2540,14 +2561,14 @@
         "2fa.directory"
       ]
     },
-    "scryfall.com": {
+    "scriptinghelpers.org": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "scriptinghelpers.org": {
+    "scryfall.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2715,14 +2736,14 @@
         "2fa.directory"
       ]
     },
-    "scalr.com": {
+    "scaleway.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "scaleway.com": {
+    "scalr.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2750,19 +2771,19 @@
         "2fa.directory"
       ]
     },
+    "sanebox.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "sans.org": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "sanebox.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "samsung.com": {
@@ -2780,19 +2801,19 @@
         "2fa.directory"
       ]
     },
+    "sailthru.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "salesforce.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "sailthru.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "runsignup.com": {
@@ -2816,14 +2837,14 @@
         "2fa.directory"
       ]
     },
-    "runbox.com": {
+    "rug.nl": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "rug.nl": {
+    "runbox.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2894,7 +2915,7 @@
         "2fa.directory"
       ]
     },
-    "rippling.com": {
+    "ripe.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2908,7 +2929,7 @@
         "2fa.directory"
       ]
     },
-    "ripe.net": {
+    "rippling.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -2943,6 +2964,13 @@
         "2fa.directory"
       ]
     },
+    "restream.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "rev.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -2951,13 +2979,6 @@
       ]
     },
     "restorecord.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "restream.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3007,14 +3028,14 @@
         "2fa.directory"
       ]
     },
-    "repairshopr.com": {
+    "render.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "render.com": {
+    "repairshopr.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3050,13 +3071,6 @@
         "passkeys.directory"
       ]
     },
-    "refersion.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "register365.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -3064,7 +3078,21 @@
         "2fa.directory"
       ]
     },
+    "refersion.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "redshelf.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "redhat.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3079,13 +3107,6 @@
       ]
     },
     "redislabs.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "redhat.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3156,13 +3177,6 @@
         "2fa.directory"
       ]
     },
-    "raycast.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "raygun.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -3170,14 +3184,21 @@
         "2fa.directory"
       ]
     },
-    "ravelin.com": {
+    "raspberrypi.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "raspberrypi.com": {
+    "raycast.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "ravelin.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3198,14 +3219,14 @@
         "2fa.directory"
       ]
     },
-    "ramp.com": {
+    "ramnode.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "ramnode.com": {
+    "ramp.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3354,14 +3375,14 @@
         "2fa.directory"
       ]
     },
-    "pusher.com": {
+    "put.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "put.io": {
+    "pusher.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3436,6 +3457,13 @@
         "2fa.directory"
       ]
     },
+    "gree.net": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "profitwell.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -3443,7 +3471,7 @@
         "2fa.directory"
       ]
     },
-    "gree.net": {
+    "privateinternetaccess.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3456,13 +3484,6 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "privateinternetaccess.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "privacy.com": {
@@ -3537,14 +3558,14 @@
         "passkeys.directory"
       ]
     },
-    "poloniex.com": {
+    "polisystems.ch": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "polisystems.ch": {
+    "poloniex.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3572,14 +3593,14 @@
         "2fa.directory"
       ]
     },
-    "pochta.ru": {
+    "pobox.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "pobox.com": {
+    "pochta.ru": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3614,6 +3635,20 @@
         "2fa.directory"
       ]
     },
+    "pleo.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "playblackdesert.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "playstation.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -3628,20 +3663,6 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "pleo.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "playblackdesert.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "google.com": {
@@ -3702,13 +3723,6 @@
         "2fa.directory"
       ]
     },
-    "planethoster.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "plan.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -3716,7 +3730,21 @@
         "2fa.directory"
       ]
     },
+    "planethoster.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "plaid.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "pixieset.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3731,13 +3759,6 @@
         "passkeys.directory"
       ]
     },
-    "piwik.pro": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "pivotaltracker.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -3745,7 +3766,7 @@
         "2fa.directory"
       ]
     },
-    "pixieset.com": {
+    "piwik.pro": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3780,6 +3801,13 @@
         "2fa.directory"
       ]
     },
+    "phemex.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "philips-hue.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -3788,13 +3816,6 @@
       ]
     },
     "meethue.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "phemex.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3831,14 +3852,14 @@
         "passkeys.directory"
       ]
     },
-    "pcloud.com": {
+    "pccasegear.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "pccasegear.com": {
+    "pcloud.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3882,6 +3903,13 @@
         "2fa.directory"
       ]
     },
+    "paxful.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "amazon.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -3898,13 +3926,6 @@
       ]
     },
     "patreon.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "paxful.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3939,13 +3960,6 @@
         "2fa.directory"
       ]
     },
-    "particle.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "parsec.app": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -3960,7 +3974,7 @@
         "2fa.directory"
       ]
     },
-    "paribu.com": {
+    "particle.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3974,7 +3988,21 @@
         "2fa.directory"
       ]
     },
+    "paribu.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "parallels.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "panorama9.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -3989,13 +4017,6 @@
       ]
     },
     "runpanther.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "panorama9.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -4023,14 +4044,14 @@
         "2fa.directory"
       ]
     },
-    "paddle.com": {
+    "packagist.org": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "packagist.org": {
+    "paddle.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -4044,19 +4065,19 @@
         "2fa.directory"
       ]
     },
-    "ac.uk": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "ovh.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "ac.uk": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "outlook.com": {
@@ -4090,13 +4111,6 @@
         "passkeys.directory"
       ]
     },
-    "ppy.sh": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "osu.edu": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -4106,6 +4120,13 @@
       ]
     },
     "osf.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "ppy.sh": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -4133,6 +4154,13 @@
         "2fa.directory"
       ]
     },
+    "opensea.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "openprovider.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -4147,20 +4175,6 @@
         "2fa.directory"
       ]
     },
-    "opensea.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "opendns.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "opencollective.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -4169,7 +4183,7 @@
         "passkeys.directory"
       ]
     },
-    "openapply.com": {
+    "opendns.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -4190,6 +4204,13 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "openapply.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "onshape.com": {
@@ -4229,14 +4250,14 @@
         "passkeys.directory"
       ]
     },
-    "onehub.com": {
+    "one.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "one.com": {
+    "onehub.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -4257,18 +4278,12 @@
         "2fa.directory"
       ]
     },
-    "stackfield.com": {
+    "okx.com": {
       "supports2FA": true,
-      "supportsPasskeys": false,
+      "supportsPasskeys": true,
       "sources": [
-        "2fa.directory"
-      ]
-    },
-    "olg.ca": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
+        "2fa.directory",
+        "passkeys.directory"
       ]
     },
     "okta.com": {
@@ -4300,7 +4315,7 @@
         "2fa.directory"
       ]
     },
-    "nulab.com": {
+    "nuget.org": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
@@ -4308,7 +4323,7 @@
         "passkeys.directory"
       ]
     },
-    "nuget.org": {
+    "nulab.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
@@ -4532,14 +4547,14 @@
         "2fa.directory"
       ]
     },
-    "newgrounds.com": {
+    "newegg.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "newegg.com": {
+    "newgrounds.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -4616,19 +4631,19 @@
         "2fa.directory"
       ]
     },
-    "netacad.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "nest.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "netacad.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "neopets.com": {
@@ -4711,14 +4726,14 @@
         "2fa.directory"
       ]
     },
-    "nairaex.com": {
+    "naga.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "naga.com": {
+    "nairaex.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -4876,19 +4891,19 @@
         "2fa.directory"
       ]
     },
-    "moniker.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "mongodb.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "moniker.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "moneybird.com": {
@@ -5020,13 +5035,6 @@
         "2fa.directory"
       ]
     },
-    "minds.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "minecraft.net": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -5041,6 +5049,13 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "minds.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "mimecast.com": {
@@ -5058,14 +5073,14 @@
         "passkeys.directory"
       ]
     },
-    "microworkers.com": {
+    "migadu.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "migadu.com": {
+    "microworkers.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -5079,14 +5094,14 @@
         "2fa.directory"
       ]
     },
-    "metorik.com": {
+    "metamask.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "metamask.io": {
+    "metorik.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -5377,7 +5392,7 @@
         "2fa.directory"
       ]
     },
-    "mailjet.com": {
+    "mailo.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -5391,14 +5406,14 @@
         "2fa.directory"
       ]
     },
-    "mailo.com": {
+    "mailfence.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "mailfence.com": {
+    "mailjet.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -5413,6 +5428,13 @@
       ]
     },
     "mailchi.mp": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "mailerlite.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -5448,19 +5470,19 @@
         "2fa.directory"
       ]
     },
-    "mail.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "mail.de": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "mail.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "aol.com": {
@@ -5581,20 +5603,6 @@
         "2fa.directory"
       ]
     },
-    "luma.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "lu.ma": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "lufthansa.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -5603,6 +5611,20 @@
       ]
     },
     "miles-and-more.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "luma.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "lu.ma": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -5666,19 +5688,19 @@
         "2fa.directory"
       ]
     },
+    "lobste.rs": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "lnk.bio": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "lobste.rs": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "litebit.eu": {
@@ -5766,14 +5788,14 @@
         "2fa.directory"
       ]
     },
-    "letsdothis.com": {
+    "lenovo.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "lenovo.com": {
+    "letsdothis.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -5794,14 +5816,14 @@
         "2fa.directory"
       ]
     },
-    "launchpad.net": {
+    "launchdarkly.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "launchdarkly.com": {
+    "launchpad.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -5851,7 +5873,7 @@
         "2fa.directory"
       ]
     },
-    "kraken.com": {
+    "co.kr": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
@@ -5859,7 +5881,7 @@
         "passkeys.directory"
       ]
     },
-    "co.kr": {
+    "kraken.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
@@ -5917,13 +5939,6 @@
         "2fa.directory"
       ]
     },
-    "smspool.net": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "kintone.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -5939,6 +5954,13 @@
       ]
     },
     "kinsta.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "kickstarter.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -5966,11 +5988,12 @@
         "2fa.directory"
       ]
     },
-    "kickstarter.com": {
+    "keepersecurity.com": {
       "supports2FA": true,
-      "supportsPasskeys": false,
+      "supportsPasskeys": true,
       "sources": [
-        "2fa.directory"
+        "2fa.directory",
+        "passkeys.directory"
       ]
     },
     "keepsolid.com": {
@@ -5980,22 +6003,14 @@
         "2fa.directory"
       ]
     },
-    "keepersecurity.com": {
-      "supports2FA": true,
-      "supportsPasskeys": true,
-      "sources": [
-        "2fa.directory",
-        "passkeys.directory"
-      ]
-    },
-    "kayako.com": {
+    "kaspersky.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "kaspersky.com": {
+    "kayako.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -6052,13 +6067,6 @@
         "2fa.directory"
       ]
     },
-    "jovia.org": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "jottacloud.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -6067,6 +6075,13 @@
       ]
     },
     "jotform.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "jovia.org": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -6103,14 +6118,14 @@
         "2fa.directory"
       ]
     },
-    "jitbit.com": {
+    "jianguoyun.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "jianguoyun.com": {
+    "jitbit.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -6124,13 +6139,6 @@
         "2fa.directory"
       ]
     },
-    "ivpn.net": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "jamfnow.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -6138,14 +6146,14 @@
         "2fa.directory"
       ]
     },
-    "itglue.com": {
+    "ivpn.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "itslearning.com": {
+    "itglue.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -6160,6 +6168,13 @@
       ]
     },
     "itch.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "itslearning.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -6230,14 +6245,14 @@
         "2fa.directory"
       ]
     },
-    "interserver.net": {
+    "internetbs.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "internetbs.net": {
+    "interserver.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -6251,20 +6266,6 @@
         "2fa.directory"
       ]
     },
-    "mailerlite.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "instructure.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "zoolz.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -6272,7 +6273,7 @@
         "2fa.directory"
       ]
     },
-    "instant-gaming.com": {
+    "instructure.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -6307,6 +6308,13 @@
         "2fa.directory"
       ]
     },
+    "instant-gaming.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "inmotionhosting.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -6321,13 +6329,6 @@
         "2fa.directory"
       ]
     },
-    "independer.nl": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "independentreserve.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -6336,6 +6337,13 @@
       ]
     },
     "inbox.lv": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "independer.nl": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -6377,7 +6385,7 @@
         "2fa.directory"
       ]
     },
-    "atlassian.com": {
+    "id.me": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
@@ -6385,7 +6393,7 @@
         "passkeys.directory"
       ]
     },
-    "id.me": {
+    "atlassian.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
@@ -6692,6 +6700,13 @@
         "2fa.directory"
       ]
     },
+    "hitbtc.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "hint.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -6721,13 +6736,6 @@
         "passkeys.directory"
       ]
     },
-    "hexonet.net": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "hevodata.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -6735,7 +6743,7 @@
         "2fa.directory"
       ]
     },
-    "hitbtc.com": {
+    "hexonet.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -6778,14 +6786,14 @@
         "2fa.directory"
       ]
     },
-    "heimdalsecurity.com": {
+    "vrchat.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "vrchat.com": {
+    "heimdalsecurity.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -6799,19 +6807,33 @@
         "2fa.directory"
       ]
     },
+    "heap.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "healthapp.google": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "fitbit.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "headway.co": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "heap.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "he.net": {
@@ -6934,14 +6956,14 @@
         "2fa.directory"
       ]
     },
-    "greengeeks.com": {
+    "greenhost.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "greenhost.net": {
+    "greengeeks.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -7048,6 +7070,13 @@
         "2fa.directory"
       ]
     },
+    "wepay.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "gmx.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -7056,13 +7085,6 @@
       ]
     },
     "gmx.at": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "wepay.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -7141,13 +7163,6 @@
         "passkeys.directory"
       ]
     },
-    "getscreen.me": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "getresponse.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -7155,14 +7170,21 @@
         "2fa.directory"
       ]
     },
-    "getpocket.com": {
+    "getflywheel.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "getflywheel.com": {
+    "getscreen.me": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "getpocket.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -7192,19 +7214,19 @@
         "2fa.directory"
       ]
     },
+    "gate.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "gandi.net": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "gate.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "gamemaker.io": {
@@ -7298,19 +7320,19 @@
         "2fa.directory"
       ]
     },
-    "frame.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "fragdenstaat.de": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "frame.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "fortrabbit.com": {
@@ -7327,14 +7349,14 @@
         "2fa.directory"
       ]
     },
-    "formspree.io": {
+    "formsite.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "formsite.com": {
+    "formspree.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -7376,14 +7398,14 @@
         "2fa.directory"
       ]
     },
-    "floatplane.com": {
+    "flipsnack.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "flipsnack.com": {
+    "floatplane.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -7425,6 +7447,13 @@
         "2fa.directory"
       ]
     },
+    "findmyshift.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "finary.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -7432,7 +7461,7 @@
         "2fa.directory"
       ]
     },
-    "findmyshift.com": {
+    "filen.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -7445,13 +7474,6 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "filen.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "fidelity.com": {
@@ -7567,13 +7589,6 @@
         "2fa.directory"
       ]
     },
-    "faceit.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "facebook.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -7588,6 +7603,13 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "faceit.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "f2pool.com": {
@@ -7632,13 +7654,6 @@
         "2fa.directory"
       ]
     },
-    "everlaw.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "evernote.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -7646,14 +7661,14 @@
         "2fa.directory"
       ]
     },
-    "eveonline.com": {
+    "everlaw.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "eukhost.com": {
+    "eveonline.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -7668,6 +7683,13 @@
       ]
     },
     "etsy.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "eukhost.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -7765,13 +7787,6 @@
         "2fa.directory"
       ]
     },
-    "engineyard.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "enom.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -7779,7 +7794,7 @@
         "2fa.directory"
       ]
     },
-    "eneba.com": {
+    "engineyard.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -7787,6 +7802,13 @@
       ]
     },
     "emplifi.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "eneba.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -7835,14 +7857,14 @@
         "2fa.directory"
       ]
     },
-    "ecu.edu": {
+    "ecobee.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "ecobee.com": {
+    "ecu.edu": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8008,14 +8030,14 @@
         "passkeys.directory"
       ]
     },
-    "easydns.com": {
+    "easysendy.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "easysendy.com": {
+    "easydns.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8050,19 +8072,19 @@
         "2fa.directory"
       ]
     },
+    "dynu.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "dynadot.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "dynu.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "dwolla.com": {
@@ -8183,14 +8205,14 @@
         "passkeys.directory"
       ]
     },
-    "dmoj.ca": {
+    "dnsfilter.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "dnsfilter.com": {
+    "dmoj.ca": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8204,19 +8226,19 @@
         "2fa.directory"
       ]
     },
+    "dmarcanalyzer.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "dmarcian.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "dmarcanalyzer.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "disqus.com": {
@@ -8249,13 +8271,6 @@
         "2fa.directory"
       ]
     },
-    "directnic.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "directadmin.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -8263,7 +8278,7 @@
         "2fa.directory"
       ]
     },
-    "dinahosting.com": {
+    "directnic.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8278,7 +8293,21 @@
         "passkeys.directory"
       ]
     },
+    "dinahosting.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "digitec.ch": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "digitalocean.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8299,13 +8328,6 @@
         "2fa.directory"
       ]
     },
-    "digitalocean.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "digicert.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -8313,14 +8335,14 @@
         "2fa.directory"
       ]
     },
-    "dext.com": {
+    "deviantart.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "deviantart.com": {
+    "dext.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8489,6 +8511,13 @@
         "2fa.directory"
       ]
     },
+    "deepl.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "deel.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -8503,7 +8532,7 @@
         "2fa.directory"
       ]
     },
-    "deepl.com": {
+    "datto.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8517,13 +8546,6 @@
         "2fa.directory"
       ]
     },
-    "datto.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "datarobot.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -8531,14 +8553,14 @@
         "2fa.directory"
       ]
     },
-    "databox.com": {
+    "datadoghq.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "datadoghq.com": {
+    "databox.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8645,22 +8667,7 @@
         "2fa.directory"
       ]
     },
-    "okx.com": {
-      "supports2FA": true,
-      "supportsPasskeys": true,
-      "sources": [
-        "2fa.directory",
-        "passkeys.directory"
-      ]
-    },
-    "cpoms.net": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "coursera.org": {
+    "stackfield.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8675,14 +8682,21 @@
         "passkeys.directory"
       ]
     },
-    "crashplan.com": {
+    "olg.ca": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "crashplanpro.com": {
+    "cpoms.net": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "coursera.org": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8731,13 +8745,6 @@
         "2fa.directory"
       ]
     },
-    "constellix.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "consentmanager.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -8745,7 +8752,21 @@
         "2fa.directory"
       ]
     },
+    "constellix.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "connectwise.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "coned.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8907,21 +8928,6 @@
         "2fa.directory"
       ]
     },
-    "coned.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "compose.com": {
-      "supports2FA": true,
-      "supportsPasskeys": true,
-      "sources": [
-        "2fa.directory",
-        "passkeys.directory"
-      ]
-    },
     "comodo.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -8936,7 +8942,36 @@
         "2fa.directory"
       ]
     },
+    "compose.com": {
+      "supports2FA": true,
+      "supportsPasskeys": true,
+      "sources": [
+        "2fa.directory",
+        "passkeys.directory"
+      ]
+    },
+    "crashplan.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "crashplanpro.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "combell.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "coinut.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8951,13 +8986,6 @@
       ]
     },
     "cointraffic.io": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "coinut.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -8992,14 +9020,14 @@
         "2fa.directory"
       ]
     },
-    "coins.ph": {
+    "coinremitter.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "coinremitter.com": {
+    "coins.ph": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9027,13 +9055,6 @@
         "2fa.directory"
       ]
     },
-    "coinjar.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "coinloan.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9042,6 +9063,13 @@
       ]
     },
     "coinigy.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "coinjar.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9076,20 +9104,6 @@
         "2fa.directory"
       ]
     },
-    "coindcx.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "coincheck.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "coinberry.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9097,7 +9111,7 @@
         "2fa.directory"
       ]
     },
-    "cognitoforms.com": {
+    "coindcx.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9112,7 +9126,14 @@
         "passkeys.directory"
       ]
     },
-    "codebasehq.com": {
+    "coincheck.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "cognitoforms.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9125,6 +9146,13 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
+      ]
+    },
+    "codebasehq.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
       ]
     },
     "coda.io": {
@@ -9156,7 +9184,7 @@
         "2fa.directory"
       ]
     },
-    "cloudinary.com": {
+    "cloudns.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9170,14 +9198,7 @@
         "2fa.directory"
       ]
     },
-    "cloudns.net": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "cloudhq.net": {
+    "cloudinary.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9192,7 +9213,21 @@
         "passkeys.directory"
       ]
     },
+    "cloudhq.net": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "cloudconvert.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "cloudamqp.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9219,13 +9254,6 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "cloudamqp.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "oracle.com": {
@@ -9259,13 +9287,6 @@
         "2fa.directory"
       ]
     },
-    "baidu.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "close.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9273,7 +9294,7 @@
         "2fa.directory"
       ]
     },
-    "clio.com": {
+    "baidu.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9281,6 +9302,13 @@
       ]
     },
     "cliniko.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "clio.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9316,14 +9344,14 @@
         "passkeys.directory"
       ]
     },
-    "citadelbanking.com": {
+    "circle.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "circle.com": {
+    "citadelbanking.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9393,13 +9421,6 @@
         "2fa.directory"
       ]
     },
-    "cdnsun.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "cdn77.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9407,7 +9428,7 @@
         "2fa.directory"
       ]
     },
-    "cat.com": {
+    "cdnsun.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9415,6 +9436,13 @@
       ]
     },
     "caspio.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "cat.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9456,6 +9484,14 @@
         "2fa.directory"
       ]
     },
+    "canva.com": {
+      "supports2FA": true,
+      "supportsPasskeys": true,
+      "sources": [
+        "2fa.directory",
+        "passkeys.directory"
+      ]
+    },
     "capcom.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9477,12 +9513,11 @@
         "2fa.directory"
       ]
     },
-    "canva.com": {
+    "campaignmonitor.com": {
       "supports2FA": true,
-      "supportsPasskeys": true,
+      "supportsPasskeys": false,
       "sources": [
-        "2fa.directory",
-        "passkeys.directory"
+        "2fa.directory"
       ]
     },
     "canada.ca": {
@@ -9493,13 +9528,6 @@
       ]
     },
     "gc.ca": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "campaignmonitor.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9556,13 +9584,6 @@
         "2fa.directory"
       ]
     },
-    "builtwith.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "bullionstar.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9570,7 +9591,7 @@
         "2fa.directory"
       ]
     },
-    "buildkite.com": {
+    "builtwith.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9591,14 +9612,14 @@
         "2fa.directory"
       ]
     },
-    "mozilla.org": {
+    "buhl.de": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "buhl.de": {
+    "buildkite.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9612,7 +9633,7 @@
         "2fa.directory"
       ]
     },
-    "buffer.com": {
+    "mozilla.org": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9626,7 +9647,7 @@
         "2fa.directory"
       ]
     },
-    "buddy.works": {
+    "buffer.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9634,6 +9655,13 @@
       ]
     },
     "buda.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "buddy.works": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9690,13 +9718,6 @@
         "passkeys.directory"
       ]
     },
-    "brex.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "brevo.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9705,6 +9726,13 @@
       ]
     },
     "sendinblue.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "brex.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9776,13 +9804,6 @@
         "2fa.directory"
       ]
     },
-    "bnktothefuture.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "bohemia.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9790,7 +9811,7 @@
         "2fa.directory"
       ]
     },
-    "bluesnap.com": {
+    "bnktothefuture.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9798,6 +9819,13 @@
       ]
     },
     "bluehost.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "bluesnap.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9812,6 +9840,13 @@
       ]
     },
     "blockfi.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "bladeandsoul.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9839,13 +9874,6 @@
         "2fa.directory"
       ]
     },
-    "bladeandsoul.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "blackbaud.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9860,6 +9888,13 @@
         "2fa.directory"
       ]
     },
+    "bitvavo.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "bitwarden.com": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -9868,7 +9903,7 @@
         "passkeys.directory"
       ]
     },
-    "bitvavo.com": {
+    "bitstamp.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9882,21 +9917,14 @@
         "2fa.directory"
       ]
     },
-    "bitso.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "bitstamp.net": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "bitskins.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "bitso.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9931,13 +9959,6 @@
         "2fa.directory"
       ]
     },
-    "bitpay.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "bitrise.io": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9946,6 +9967,20 @@
       ]
     },
     "bitpanda.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "bitpay.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "bithumb.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -9974,13 +10009,6 @@
         "2fa.directory"
       ]
     },
-    "bitforex.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "bitflyer.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -9996,21 +10024,7 @@
         "passkeys.directory"
       ]
     },
-    "bithumb.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "bitbuy.ca": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "bitcoin.de": {
+    "bitforex.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10024,7 +10038,28 @@
         "2fa.directory"
       ]
     },
+    "bitcoin.de": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "bitbuy.ca": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "bitbns.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "bitbar.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10039,7 +10074,7 @@
         "passkeys.directory"
       ]
     },
-    "bitbar.com": {
+    "bill.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10052,13 +10087,6 @@
       "sources": [
         "2fa.directory",
         "passkeys.directory"
-      ]
-    },
-    "bill.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
       ]
     },
     "bibox.com": {
@@ -10082,13 +10110,6 @@
         "2fa.directory"
       ]
     },
-    "betterment.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "bethesda.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -10096,7 +10117,7 @@
         "2fa.directory"
       ]
     },
-    "betfair.com": {
+    "betterment.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10111,6 +10132,13 @@
         "passkeys.directory"
       ]
     },
+    "betfair.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "beget.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -10119,6 +10147,13 @@
       ]
     },
     "batch.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "baremetrics.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10141,13 +10176,6 @@
       ]
     },
     "meine-barmenia.de": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "baremetrics.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10182,14 +10210,14 @@
         "2fa.directory"
       ]
     },
-    "backblaze.com": {
+    "back4app.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "back4app.com": {
+    "backblaze.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10231,6 +10259,13 @@
         "2fa.directory"
       ]
     },
+    "avanza.se": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "autotask.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -10238,7 +10273,7 @@
         "2fa.directory"
       ]
     },
-    "avanza.se": {
+    "automater.pl": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10274,13 +10309,6 @@
         "2fa.directory"
       ]
     },
-    "automater.pl": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "audiofanzine.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -10295,13 +10323,6 @@
         "2fa.directory"
       ]
     },
-    "ma.us": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "aternos.org": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -10309,14 +10330,21 @@
         "2fa.directory"
       ]
     },
-    "asus.com": {
+    "atera.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "atera.com": {
+    "ma.us": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "asus.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10365,13 +10393,6 @@
         "2fa.directory"
       ]
     },
-    "arin.net": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "arduino.cc": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -10379,7 +10400,7 @@
         "2fa.directory"
       ]
     },
-    "appveyor.com": {
+    "arin.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10393,7 +10414,7 @@
         "2fa.directory"
       ]
     },
-    "appodeal.com": {
+    "appveyor.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10401,6 +10422,20 @@
       ]
     },
     "appsignal.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "appodeal.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "appfigures.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10428,13 +10463,6 @@
         "2fa.directory"
       ]
     },
-    "appfigures.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "apnic.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -10449,13 +10477,6 @@
         "2fa.directory"
       ]
     },
-    "anycoindirect.eu": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
     "any.run": {
       "supports2FA": true,
       "supportsPasskeys": false,
@@ -10463,14 +10484,22 @@
         "2fa.directory"
       ]
     },
-    "americancentury.com": {
+    "anycoindirect.eu": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
       ]
     },
-    "americafirst.com": {
+    "ameriprise.com": {
+      "supports2FA": true,
+      "supportsPasskeys": true,
+      "sources": [
+        "2fa.directory",
+        "passkeys.directory"
+      ]
+    },
+    "americancentury.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10581,12 +10610,11 @@
         "passkeys.directory"
       ]
     },
-    "ameriprise.com": {
+    "americafirst.com": {
       "supports2FA": true,
-      "supportsPasskeys": true,
+      "supportsPasskeys": false,
       "sources": [
-        "2fa.directory",
-        "passkeys.directory"
+        "2fa.directory"
       ]
     },
     "amazingmarvin.com": {
@@ -10597,6 +10625,13 @@
       ]
     },
     "alterdice.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "altoira.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10652,7 +10687,7 @@
         "2fa.directory"
       ]
     },
-    "altoira.com": {
+    "ajax.systems": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10667,13 +10702,6 @@
       ]
     },
     "airtable.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "ajax.systems": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10702,6 +10730,13 @@
         "passkeys.directory"
       ]
     },
+    "aeza.net": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "aero.zip": {
       "supports2FA": true,
       "supportsPasskeys": true,
@@ -10711,13 +10746,6 @@
       ]
     },
     "adyen.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "aeza.net": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10752,11 +10780,12 @@
         "2fa.directory"
       ]
     },
-    "activestate.com": {
+    "adafruit.com": {
       "supports2FA": true,
-      "supportsPasskeys": false,
+      "supportsPasskeys": true,
       "sources": [
-        "2fa.directory"
+        "2fa.directory",
+        "passkeys.directory"
       ]
     },
     "activision.com": {
@@ -10767,6 +10796,13 @@
       ]
     },
     "callofduty.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "activestate.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10785,14 +10821,6 @@
       "supportsPasskeys": false,
       "sources": [
         "2fa.directory"
-      ]
-    },
-    "adafruit.com": {
-      "supports2FA": true,
-      "supportsPasskeys": true,
-      "sources": [
-        "2fa.directory",
-        "passkeys.directory"
       ]
     },
     "actionstep.com": {
@@ -10866,21 +10894,14 @@
         "2fa.directory"
       ]
     },
+    "3commas.io": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
     "2checkout.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "23andme.com": {
-      "supports2FA": true,
-      "supportsPasskeys": false,
-      "sources": [
-        "2fa.directory"
-      ]
-    },
-    "20i.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
@@ -10911,7 +10932,14 @@
         "passkeys.directory"
       ]
     },
-    "3commas.io": {
+    "23andme.com": {
+      "supports2FA": true,
+      "supportsPasskeys": false,
+      "sources": [
+        "2fa.directory"
+      ]
+    },
+    "20i.com": {
       "supports2FA": true,
       "supportsPasskeys": false,
       "sources": [
