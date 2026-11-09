@@ -1,7 +1,7 @@
 {
-  "version": "2026.11.02",
-  "generatedAt": "2026-11-02T10:18:29.083Z",
-  "sha256": "63b65c4482eb1fedaed3b02f103cd813849c0ba131d5453ea9171cdf553ae3ae",
+  "version": "2026.11.09",
+  "generatedAt": "2026-11-09T10:39:20.180Z",
+  "sha256": "78d615536c553e9efaa0f6eecbc872857d232ccda6e78dc2665785c4cff8ca4e",
   "entries": {
     "zoom.us": {
       "supports2FA": true,
