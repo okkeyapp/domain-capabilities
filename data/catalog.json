@@ -1,7 +1,7 @@
 {
-  "version": "2026.11.16",
-  "generatedAt": "2026-11-16T10:22:38.098Z",
-  "sha256": "dcc9312d50bd90a9f8013b5dff38caef321c44b891cefd9192b5c0a075d13cf1",
+  "version": "2026.11.23",
+  "generatedAt": "2026-11-23T11:31:14.830Z",
+  "sha256": "65e153e1650fb3ca70b56e32f76b04e92144363e61634012d87ed43336dc0496",
   "entries": {
     "zoom.us": {
       "supports2FA": true,
@@ -5696,23 +5696,26 @@
     },
     "logitech.com": {
       "supports2FA": true,
-      "supportsPasskeys": false,
+      "supportsPasskeys": true,
       "sources": [
-        "2fa.directory"
+        "2fa.directory",
+        "passkeys.directory"
       ]
     },
     "astrogaming.com": {
       "supports2FA": true,
-      "supportsPasskeys": false,
+      "supportsPasskeys": true,
       "sources": [
-        "2fa.directory"
+        "2fa.directory",
+        "passkeys.directory"
       ]
     },
     "logi.com": {
       "supports2FA": true,
-      "supportsPasskeys": false,
+      "supportsPasskeys": true,
       "sources": [
-        "2fa.directory"
+        "2fa.directory",
+        "passkeys.directory"
       ]
     },
     "login.gov": {
@@ -11615,6 +11618,13 @@
       ]
     },
     "robinhood.com": {
+      "supports2FA": false,
+      "supportsPasskeys": true,
+      "sources": [
+        "passkeys.directory"
+      ]
+    },
+    "schwab.com": {
       "supports2FA": false,
       "supportsPasskeys": true,
       "sources": [
